@@ -94,7 +94,7 @@
       left: -50%;
       width: 200%;
       height: 200%;
-      background: radial-gradient(circle, #423275 0%, transparent 30%);
+      background: radial-gradient(circle, #423275 0%, transparent 40%);
       animation: float 6s ease-in-out infinite;
     }
 
@@ -585,21 +585,29 @@
         </div>
 
         <!-- Cartão de produto: Tropical -->
-        <div class="product-card" onclick="openProductDetailModal('SEX ON THE BEACH', 'Drink cremoso e delicioso SEX ON THE BEACH, Suco de Laranja, Vodka, Licor de Groselha, Groselha. Disponível com ou sem álcool.', 'fas fa-heart')">
+        <div class="product-card" onclick="openProductDetailModal('SEX ON THE BEACH', 'Drink cremoso e delicioso SEX ON THE BEACH, Suco de Laranja, Vodka, Licor de Groselha, Groselha. Disponível com álcool.', 'fas fa-heart')">
           <i class="fas fa-leaf product-icon"></i>
-          <div class="category-badge">Coquetéis Sem Álcool</div>
+          <div class="category-badge">Coquetéis Com Álcool</div>
           <h3 class="product-title">SEX ON THE BEACH</h3> 
           <p class="product-description">Vodka • Suco de Laranja • Licor de Groselha • Groselha</p>
         </div>
 
          <!-- Cartão de produto: Grape -->
-        <div class="product-card" onclick="openProductDetailModal('Grape', 'Drink cremoso e delicioso com uva, abacaxi, leite condensado e creme de leite. Disponível com ou sem álcool, uma explosão de sabor.', 'fas fa-heart')">
+        <div class="product-card" onclick="openProductDetailModal('BLUE LAGOON', 'Drink cremoso e delicioso com uva, abacaxi, leite condensado e creme de leite. Disponível com álcool, uma explosão de sabor.', 'fas fa-heart')">
           <i class="fas fa-cocktail product-icon"></i>
-          <div class="category-badge">Coquetéis Sem Álcool</div>
+          <div class="category-badge">Coquetéis Com Álcool</div>
           <h3 class="product-title">BLUE LAGOON</h3> 
           <p class="product-description">Licor Curaçau Blue • Vodka • Limão • Açúcar</p>
         </div>
 
+        <!-- Cartão de produto: MOSCOW MULE -->
+        <div class="product-card" onclick="openProductDetailModal('MOSCOW MULE', 'Drink sofisticado com vodka, limão, açúcar, xarope de gengibre e espuma cremosa. Sabor picante e refrescante.', 'fas fa-fire')">
+          <i class="fas fa-mug-hot product-icon"></i>
+          <div class="category-badge">Coquetéis Especiais</div>
+          <h3 class="product-title">MOSCOW MULE</h3>
+          <p class="product-description">Vodka • Limão • Açúcar • Xarope de Gengibre • Espuma</p>
+        </div>
+        
         <!-- Cartão de produto: Maracujá -->
         <div class="product-card" onclick="openProductDetailModal('Maracujá ', 'Drink cremoso e delicioso com maracujá , vodka, açucar e leite. Disponível com ou sem álcool, uma explosão de sabor.', 'fas fa-heart')">
           <i class="fas fa-leaf product-icon"></i>
@@ -738,7 +746,5 @@
     `;
     document.head.appendChild(style);
   </script>
-
 </body>
-
 </html>
